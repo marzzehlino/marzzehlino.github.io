@@ -1,0 +1,35 @@
+#background-img {
+    background-image: url("img/background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+.nav-link {
+    color: white !important;
+    font-size: 25px;
+}
+
+#Header {
+    position: relative;
+    top: 45%;
+}
+
+.nav-link:hover {
+    color: grey !important;
+}
+.font-Montserrat {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+}
+
+.bg-header {
+    background: linear-gradient(45deg, #3A04B0, #140D41);
+}
+
+.Title-txt {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 35px;
+}
