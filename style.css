@@ -16,7 +16,7 @@
     top: 45%;
 }
 
-.nav-link:hover {
+.nav-link:hover, .active {
     color: grey !important;
 }
 .font-Montserrat {
