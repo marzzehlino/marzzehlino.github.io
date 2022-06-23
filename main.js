@@ -24,6 +24,7 @@ var selectedElement = undefined;
 
 $(".nav-item a").on("click", function() {
     $(".nav-item a").removeClass("active");
+    $(this).removeClass("animate__animated animate__tada");
     $(this).addClass("animate__animated animate__tada");
     if(selectedElement == this && onActive) {
         
