@@ -21,7 +21,7 @@
 <body>
 
     <div class="container-fluid p-0" id="background-img">
-        <div class="container m-auto p-auto" id="Header">
+        <div class="container my-auto p-auto" id="Header">
             <ul class="nav justify-content-center align-items-center py-3 text-white font-Montserrat">
                 <li class="nav-item">
                     <a class="nav-link" data-bs-toggle="collapse" data-bs-target="#Collapse1" role="button" aria-expanded="false" aria-controls="Collapse1">Informations personnelles</a>
@@ -73,17 +73,42 @@
                     </div>
                 </nav>
 
-                <div class="card mb-3 mx-auto my-4 animate__animated animate__backInLeft" style="max-width: 540px;">
-                    <div class="row g-0">
-                        <div class="col-md-4">
-                            <img src="img/photo-by-face-generator_6290c74b307c0f000f9b4a20.jpg" class="img-fluid rounded-start" alt="...">
+                <div class="accordion p-4" id="accordionPanelsStayOpenExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                          Formation #1
+                        </button>
+                      </h2>
+                      <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                        <div class="accordion-body">
+                          <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
                         </div>
-                        <div class="col-md-8">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                            </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                            Formation #2
+                        </button>
+                      </h2>
+                      <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                        <div class="accordion-body">
+                          <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
                         </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                            Formation #3
+                        </button>
+                      </h2>
+                      <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                        <div class="accordion-body">
+                          <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                        </div>
+                      </div>
                     </div>
                 </div>
             </div>
@@ -97,16 +122,52 @@
                     </div>
                 </nav>
 
-                <div class="card mb-3 mx-auto my-4 animate__animated animate__backInLeft" style="max-width: 540px;">
-                    <div class="row g-0">
-                        <div class="col-md-4">
-                            <img src="img/photo-by-face-generator_6290c74b307c0f000f9b4a20.jpg" class="img-fluid rounded-start" alt="...">
+                <div class="row row-cols-2 row-cols-md-2 g-4 m-4">
+                    <div class="col p-4">
+                      <div class="card h-100">
+                        <img src="img/html.png" class="card-img-top card-logo mx-auto m-4" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title text-center font-weight-bold">HTML</h5>
+                          <div class="progress m-4">
+                            <div class="progress-bar" role="progressbar" style="width: 95%;" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                          </div>
                         </div>
-                        <div class="col-md-8">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                            </div>
+                      </div>
+                    </div>
+
+                    <div class="col p-4">
+                        <div class="card h-100">
+                          <img src="img/js.png" class="card-img-top card-logo mx-auto m-4" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title text-center font-weight-bold">JavaScript</h5>
+                            <div class="progress m-4">
+                              <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>                          
+                          </div>
+                        </div>
+                    </div>
+
+                    <div class="col p-4">
+                        <div class="card h-100">
+                          <img src="img/css-3.png" class="card-img-top card-logo mx-auto m-4" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title text-center font-weight-bold">CSS</h5>
+                            <div class="progress m-4">
+                              <div class="progress-bar" role="progressbar" style="width: 65%;" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>                          
+                          </div>
+                        </div>
+                    </div>
+
+                    <div class="col p-4">
+                        <div class="card h-100">
+                          <img src="img/server.png" class="card-img-top card-logo mx-auto m-4" alt="...">
+                          <div class="card-body">
+                            <h5 class="card-title text-center font-weight-bold">SQL</h5>
+                            <div class="progress m-4">
+                              <div class="progress-bar" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>                          
+                          </div>
                         </div>
                     </div>
                 </div>

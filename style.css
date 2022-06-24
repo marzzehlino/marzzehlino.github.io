@@ -13,6 +13,12 @@
 
 #Header {
     position: relative;
+    top: 45vh;
+}
+
+.card-logo {
+    height: 128px;
+    width: 128px;
 }
 
 .nav-link:hover, .active {
