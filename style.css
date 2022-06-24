@@ -26,7 +26,7 @@ a, a:hover {
     width: 128px;
 }
 
-.nav-link:hover, .active {
+.nav-link:hover, .active, a:hover {
     color: grey !important;
 }
 .font-Montserrat {
